@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster+Two:ital@1&family=Poppins:wght@300&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 121, 121);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper{
+    height: 35%;
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.wrapper h1{
+    margin: 30px;
+    color: #162938;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+/* .wrapper input{
+    height: 50px;
+    width: 75%;
+    border-radius: 8px;
+    border: 1px solid grey;
+    outline: none;
+    margin: 10px;
+}
+
+.wrapper .inputbox{
+    padding-left: 100px;
+    padding-right: 100px;
+} */
+
+.wrapper p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.wrapper span{
+    color: #8a2be2;
+}
+.wrapper button{
+    height: 35px;
+    width: 135px;
+    margin: 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color: #8a2be2;
+    color: #fff;
+    letter-spacing: .5px;
+    cursor: pointer;
+    font-family: 'Lobster Two';
+}

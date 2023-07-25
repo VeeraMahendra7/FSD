@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster+Two:ital@1&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: aquamarine;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    height: 40%;
+    width: 40%;
+    background-color:   skyblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px   ;
+}
+
+.content{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    align-items: center;
+
+}
+.content h2{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+
+}
+.box_content{
+    height: 35%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.box_content #watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button #start{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: green;
+    border: 1px solid grey;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button #paused{
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: #162938;
+    border: 1px solid grey;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button #reset{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid grey;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

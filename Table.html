@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td{
+            border: 1px solid tomato;
+            border-collapse: collapse;
+        }
+        th , td{
+            padding: 5px;
+        }
+        table{
+            text-align: center;
+            border-spacing: 10px;
+        }
+        th:hover{
+            background-color: crimson;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* .first{
+            background-color: #D6EEEE;
+        }
+        .second{
+            background-color: tomato;
+        }
+        .third{
+            background-color: mediumseagreen;
+        } */
+    </style>
+</head>
+<body>
+    <table style="width: 50%; height: 50%;">
+        <caption style="font-weight: bold;">Student</caption>
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE;">
+            <col span="2" style="background-color: yellow;">
+            <col span="1" style="background-color: mediumseagreen;">
+            <col span="2" style="background-color: tomato;">
+        </colgroup>
+        <tr>
+            <th>S.NO</th>
+            <th>Name</th>
+            <th>Roll NO</th>
+            <th>College</th>
+            <th>Branch</th>
+            <th>Mail</th>
+        </tr>
+        <tr class="first">
+            <td>1</td>
+            <td>Mahendra</td>
+            <td>5E9</td>
+            <td>AEC</td>
+            <td rowspan="5" style="text-align: center;">CSE</td>
+            <td>5E9@aec.edu.in</td>
+        </tr>
+        <tr class="first">
+            <td rowspan="2">2</td>
+            <td colspan="2">Guna</td>
+            <td>ACOE</td>
+            <td>5H7@acoe.edu.in</td>
+        </tr>
+        <tr class="second"> 
+            <td>Vamsi</td>
+            <td>5G5</td>
+            <td>ACET</td>
+            <td>5G5@acet.edu.in</td>
+        </tr>
+        <tr class="third">
+            <td>4</td>
+            <td>Santhosh</td>
+            <td>5I0</td>
+            <td>ACET</td>
+            <td>5I0@acet.edu.in</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td colspan="2">Saketh</td>
+            <td>ACET</td>
+            <td>5H5@acet.edu.in</td>
+        </tr>
+    </table>
+</body>
+</html>

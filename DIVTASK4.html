@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main-container{
+            height: 100vh;
+            background-color: black;
+        }
+        .main-container .left{
+            height: 100%;
+            width: 25%;
+            background-color: red;
+            float: left;
+        }
+        .main-container .left .ltop{
+            height: 30%;
+            width: 100%;
+            background-color: blueviolet;
+        }
+        .main-container .left .ltop .lleft{
+            height: 100%;
+            width: 50%;
+            background-color: #fff;
+            float: left;
+        }
+        .main-container .left .ltop .lright{
+            height: 100%;
+            width: 50%;
+            background-color: skyblue;
+            float: right;
+        }
+        .main-container .left .lcenter{
+            height: 20%;
+            width: 100%;
+            background-color: brown;
+        }
+        .main-container .left .lbottom{
+            height: 50%;
+            width: 100%;
+            background-color: navy;
+        }
+        .main-container .left .lbottom .bleft{
+            height: 100%;
+            width: 30%;
+            background-color: tomato;
+            float: left;
+        }
+        .main-container .left .lbottom .bright{
+            height: 100%;
+            width: 70%;
+            background-color: mediumseagreen;
+            float: right;
+        }
+        .main-container .left .lbottom .bright .btop{
+            height: 50%;
+            width: 100%;
+            background-color: gold;
+        }
+        .main-container .left .lbottom .bright .bbot{
+            height: 50%;
+            width: 100%;
+            background-color: grey;
+        }
+        .main-container .right{
+            height: 100%;
+            width: 75%;
+            background-color: green;
+            float: right;
+        }
+        .main-container .right .rtop{
+            height: 30%;
+            width: 100%;
+            background-color: violet;
+        }
+        .main-container .right .rtop .rleft{
+            height: 100%;
+            width: 30%;
+            background-color: aqua;
+            float: left;
+        }
+        .main-container .right .rtop .rright{
+            height: 100%;
+            width: 70%;
+            background-color: teal;
+            float: right;
+        }
+        .main-container .right .rtop .rright .rrtop{
+            height: 40%;
+            width: 100%;
+            background-color: #D6EEEE;
+        }
+        .main-container .right .rtop .rright .rrbot{
+            height: 60%;
+            width: 100%;
+            background-color: #ff0000;
+        }
+        .main-container .right .rtop .rright .rrbot .rrleft{
+            height: 100%;
+            width: 30%;
+            background-color: lightblue;
+            float: left;
+        }
+        .main-container .right .rtop .rright .rrbot .rrright{
+            height: 100%;
+            width: 30%;
+            background-color: lightcoral;
+            float: right;
+        }
+        .main-container .right .rtop .rright .rrbot .rrcenter{
+            height: 100%;
+            width: 40%;
+            background-color: lightgreen;
+            float: right;
+        }
+        .main-container .right .rbot{
+            height: 70%;
+            width: 100%;
+            background-color: blue;
+        }
+        .main-container .right .rbot .rbleft{
+            height: 100%;
+            width: 15%;
+            background-color: bisque;
+            float: left;
+        }
+        .main-container .right .rbot .rbright{
+            height: 100%;
+            width: 85%;
+            background-color: rgb(237, 132, 5);
+            float: right;
+        }
+        .main-container .right .rbot .rbright .rbtop{
+            height: 25%;
+            width: 100%;
+            background-color: cadetblue;
+        }
+        .main-container .right .rbot .rbright .rbbot{
+            height: 75%;
+            width: 100%;
+            background-color: rgb(16, 228, 236);
+        }
+        .main-container .right .rbot .rbright .rbbot .rbleft1{
+            height: 100%;
+            width: 15%;
+            background-color: lightseagreen;
+            float: left;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1{
+            height: 100%;
+            width: 85%;
+            background-color: rgb(5, 70, 67);
+            float: right;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbtop1{
+            height: 35%;
+            width: 100%;
+            background-color: lightcoral;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1{
+            height: 65%;
+            width: 100%;
+            background-color: rgb(251, 11, 11);
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1 .rbleft2{
+            height: 100%;
+            width: 20%;
+            background-color: thistle;
+            float: left;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1 .rbright2{
+            height: 100%;
+            width: 80%;
+            background-color: rgb(231, 14, 231);
+            float: right;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1 .rbright2 .rbtop2{
+            height: 45%;
+            width: 100%;
+            background-color: sandybrown;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1 .rbright2 .rbbot2{
+            height: 55%;
+            width: 100%;
+            background-color: rgb(234, 113, 7);
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1 .rbright2 .rbbot2 .rbleft3{
+            height: 100%;
+            width: 50%;
+            background-color: tomato;
+            float: left;
+        }
+        .main-container .right .rbot .rbright .rbbot .rbright1 .rbbot1 .rbright2 .rbbot2 .rbright3{
+            height: 100%;
+            width: 50%;
+            background-color: mediumseagreen;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left">
+            <div class="ltop">
+                <div class="lleft"></div>
+                <div class="lright"></div>
+            </div>
+            <div class="lcenter"></div>
+            <div class="lbottom">
+                <div class="bleft"></div>
+                <div class="bright">
+                    <div class="btop"></div>
+                    <div class="bbot"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="rtop">
+                <div class="rleft"></div>
+                <div class="rright">
+                    <div class="rrtop"></div>
+                    <div class="rrbot">
+                        <div class="rrleft"></div>
+                        <div class="rrright"></div>
+                        <div class="rrcenter"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rbot">
+                <div class="rbleft"></div>
+                <div class="rbright">
+                    <div class="rbtop"></div>
+                    <div class="rbbot">
+                        <div class="rbleft1"></div>
+                        <div class="rbright1">
+                            <div class="rbtop1"></div>
+                            <div class="rbbot1">
+                                <div class="rbleft2"></div>
+                                <div class="rbright2">
+                                    <div class="rbtop2"></div>
+                                    <div class="rbbot2">
+                                        <div class="rbleft3"></div>
+                                        <div class="rbright3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
